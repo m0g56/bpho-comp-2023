@@ -10,7 +10,7 @@ fn main() {
 fn setup(mut commands: Commands, asset_server: Res<AssetServer>) {
     commands.spawn(Camera2dBundle::default());
     commands.spawn(SpriteBundle {
-        texture: asset_server.load("sprites/LLLA.png"),
+        texture: asset_server.load("/assets/sprites/LLLA.png"),
         ..default()
     });
 }
