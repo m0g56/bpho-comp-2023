@@ -1,1 +1,1 @@
-# bpho-comp-2023
+# BPhO Computational Physics Challenge 2023
