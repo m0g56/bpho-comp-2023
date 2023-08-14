@@ -59,12 +59,9 @@ def GenerateSpirograph(planeta, planetb):
     plt.show()
     return [fig]
 
-#figs = []
-#figs.append(GenerateSpirograph(1, 2))
-#figs.append(GenerateSpirograph(6, 7))
-#figs.append(GenerateSpirograph(7, 8))
 
 
-data.GenerateScript(os.path.basename(__file__), GenerateSpirograph(7, 8))
-data.GenerateScript(os.path.basename(__file__), GenerateSpirograph(6, 7))
-data.GenerateScript(os.path.basename(__file__), GenerateSpirograph(1, 2))
+
+#data.GenerateScript(os.path.basename(__file__), GenerateSpirograph(7, 8))
+#data.GenerateScript(os.path.basename(__file__), GenerateSpirograph(6, 7))
+#data.GenerateScript(os.path.basename(__file__), GenerateSpirograph(1, 2))
