@@ -1,0 +1,100 @@
+<DOCTPYE! html>
+<html>
+
+<head>
+    <title>Task 1</title> 
+</head>
+    
+<body>
+    <h1> Task 1 </h1>
+<!-- here -->
+
+
+
+<style>
+
+</style>
+
+<div id="fig_el229081824051599376989938976"></div>
+<script>
+function mpld3_load_lib(url, callback){
+  var s = document.createElement('script');
+  s.src = url;
+  s.async = true;
+  s.onreadystatechange = s.onload = callback;
+  s.onerror = function(){console.warn("failed to load library " + url);};
+  document.getElementsByTagName("head")[0].appendChild(s);
+}
+
+if(typeof(mpld3) !== "undefined" && mpld3._mpld3IsLoaded){
+   // already loaded: just create the figure
+   !function(mpld3){
+       
+       mpld3.draw_figure("fig_el229081824051599376989938976", {"width": 640.0, "height": 480.0, "axes": [{"bbox": [0.125, 0.10999999999999999, 0.775, 0.77], "xlim": [-1.56915, 41.46615], "ylim": [-12.1655, 260.7555], "xdomain": [-1.56915, 41.46615], "ydomain": [-12.1655, 260.7555], "xscale": "linear", "yscale": "linear", "axes": [{"position": "bottom", "nticks": 11, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}, {"position": "left", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}], "axesbg": "#FFFFFF", "axesbgalpha": null, "zoomable": true, "id": "el229081824046377360", "lines": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824072207568", "color": "#00BFBF", "linewidth": 1.5, "dasharray": "none", "alpha": 1, "zorder": 2, "drawstyle": "default"}], "paths": [], "markers": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824072207568pts", "facecolor": "#00BFBF", "edgecolor": "#00BFBF", "edgewidth": 1.0, "alpha": 1, "zorder": 2, "markerpath": [[[0.0, 4.242640687119286], [4.242640687119286, 0.0], [0.0, -4.242640687119286], [-4.242640687119286, 0.0]], ["M", "L", "L", "L", "Z"]]}], "texts": [{"text": "Orbital Radius / AU", "position": [0.5, -0.07921476671476674], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "hanging", "rotation": -0.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824071962576"}, {"text": "Orbital Period / Years", "position": [-0.08397737455197134, 0.5], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -90.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824071967120"}, {"text": "Kepler III Correlation", "position": [0.5, 1.0225468975468974], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -0.0, "fontsize": 12.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824051922576"}], "collections": [], "images": [], "sharex": [], "sharey": []}], "data": {"data01": [[0.387, 0.24], [0.723, 0.62], [1.0, 1.0], [1.523, 1.88], [5.2, 11.86], [9.58, 29.63], [19.29, 84.75], [30.25, 166.34], [39.51, 248.35]]}, "id": "el229081824051599376", "plugins": [{"type": "reset"}, {"type": "zoom", "button": true, "enabled": false}, {"type": "boxzoom", "button": true, "enabled": false}]});
+   }(mpld3);
+}else if(typeof define === "function" && define.amd){
+   // require.js is available: use it to load d3/mpld3
+   require.config({paths: {d3: "https://d3js.org/d3.v5"}});
+   require(["d3"], function(d3){
+      window.d3 = d3;
+      mpld3_load_lib("https://mpld3.github.io/js/mpld3.v0.5.9.js", function(){
+         
+         mpld3.draw_figure("fig_el229081824051599376989938976", {"width": 640.0, "height": 480.0, "axes": [{"bbox": [0.125, 0.10999999999999999, 0.775, 0.77], "xlim": [-1.56915, 41.46615], "ylim": [-12.1655, 260.7555], "xdomain": [-1.56915, 41.46615], "ydomain": [-12.1655, 260.7555], "xscale": "linear", "yscale": "linear", "axes": [{"position": "bottom", "nticks": 11, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}, {"position": "left", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}], "axesbg": "#FFFFFF", "axesbgalpha": null, "zoomable": true, "id": "el229081824046377360", "lines": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824072207568", "color": "#00BFBF", "linewidth": 1.5, "dasharray": "none", "alpha": 1, "zorder": 2, "drawstyle": "default"}], "paths": [], "markers": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824072207568pts", "facecolor": "#00BFBF", "edgecolor": "#00BFBF", "edgewidth": 1.0, "alpha": 1, "zorder": 2, "markerpath": [[[0.0, 4.242640687119286], [4.242640687119286, 0.0], [0.0, -4.242640687119286], [-4.242640687119286, 0.0]], ["M", "L", "L", "L", "Z"]]}], "texts": [{"text": "Orbital Radius / AU", "position": [0.5, -0.07921476671476674], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "hanging", "rotation": -0.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824071962576"}, {"text": "Orbital Period / Years", "position": [-0.08397737455197134, 0.5], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -90.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824071967120"}, {"text": "Kepler III Correlation", "position": [0.5, 1.0225468975468974], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -0.0, "fontsize": 12.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824051922576"}], "collections": [], "images": [], "sharex": [], "sharey": []}], "data": {"data01": [[0.387, 0.24], [0.723, 0.62], [1.0, 1.0], [1.523, 1.88], [5.2, 11.86], [9.58, 29.63], [19.29, 84.75], [30.25, 166.34], [39.51, 248.35]]}, "id": "el229081824051599376", "plugins": [{"type": "reset"}, {"type": "zoom", "button": true, "enabled": false}, {"type": "boxzoom", "button": true, "enabled": false}]});
+      });
+    });
+}else{
+    // require.js not available: dynamically load d3 & mpld3
+    mpld3_load_lib("https://d3js.org/d3.v5.js", function(){
+         mpld3_load_lib("https://mpld3.github.io/js/mpld3.v0.5.9.js", function(){
+                 
+                 mpld3.draw_figure("fig_el229081824051599376989938976", {"width": 640.0, "height": 480.0, "axes": [{"bbox": [0.125, 0.10999999999999999, 0.775, 0.77], "xlim": [-1.56915, 41.46615], "ylim": [-12.1655, 260.7555], "xdomain": [-1.56915, 41.46615], "ydomain": [-12.1655, 260.7555], "xscale": "linear", "yscale": "linear", "axes": [{"position": "bottom", "nticks": 11, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}, {"position": "left", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}], "axesbg": "#FFFFFF", "axesbgalpha": null, "zoomable": true, "id": "el229081824046377360", "lines": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824072207568", "color": "#00BFBF", "linewidth": 1.5, "dasharray": "none", "alpha": 1, "zorder": 2, "drawstyle": "default"}], "paths": [], "markers": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824072207568pts", "facecolor": "#00BFBF", "edgecolor": "#00BFBF", "edgewidth": 1.0, "alpha": 1, "zorder": 2, "markerpath": [[[0.0, 4.242640687119286], [4.242640687119286, 0.0], [0.0, -4.242640687119286], [-4.242640687119286, 0.0]], ["M", "L", "L", "L", "Z"]]}], "texts": [{"text": "Orbital Radius / AU", "position": [0.5, -0.07921476671476674], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "hanging", "rotation": -0.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824071962576"}, {"text": "Orbital Period / Years", "position": [-0.08397737455197134, 0.5], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -90.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824071967120"}, {"text": "Kepler III Correlation", "position": [0.5, 1.0225468975468974], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -0.0, "fontsize": 12.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824051922576"}], "collections": [], "images": [], "sharex": [], "sharey": []}], "data": {"data01": [[0.387, 0.24], [0.723, 0.62], [1.0, 1.0], [1.523, 1.88], [5.2, 11.86], [9.58, 29.63], [19.29, 84.75], [30.25, 166.34], [39.51, 248.35]]}, "id": "el229081824051599376", "plugins": [{"type": "reset"}, {"type": "zoom", "button": true, "enabled": false}, {"type": "boxzoom", "button": true, "enabled": false}]});
+            })
+         });
+}
+</script>
+
+
+<style>
+
+</style>
+
+<div id="fig_el2290818240721173923183013473"></div>
+<script>
+function mpld3_load_lib(url, callback){
+  var s = document.createElement('script');
+  s.src = url;
+  s.async = true;
+  s.onreadystatechange = s.onload = callback;
+  s.onerror = function(){console.warn("failed to load library " + url);};
+  document.getElementsByTagName("head")[0].appendChild(s);
+}
+
+if(typeof(mpld3) !== "undefined" && mpld3._mpld3IsLoaded){
+   // already loaded: just create the figure
+   !function(mpld3){
+       
+       mpld3.draw_figure("fig_el2290818240721173923183013473", {"width": 640.0, "height": 480.0, "axes": [{"bbox": [0.125, 0.10999999999999999, 0.775, 0.77], "xlim": [-12.164608913264223, 260.7532890290156], "ylim": [-12.1655, 260.7555], "xdomain": [-12.164608913264223, 260.7532890290156], "ydomain": [-12.1655, 260.7555], "xscale": "linear", "yscale": "linear", "axes": [{"position": "bottom", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}, {"position": "left", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}], "axesbg": "#FFFFFF", "axesbgalpha": null, "zoomable": true, "id": "el229081824071997072", "lines": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824095558800", "color": "#FF0000", "linewidth": 1.5, "dasharray": "none", "alpha": 1, "zorder": 2, "drawstyle": "default"}], "paths": [], "markers": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824095558800pts", "facecolor": "#FF0000", "edgecolor": "#FF0000", "edgewidth": 1.0, "alpha": 1, "zorder": 2, "markerpath": [[[0.0, 4.242640687119286], [4.242640687119286, 0.0], [0.0, -4.242640687119286], [-4.242640687119286, 0.0]], ["M", "L", "L", "L", "Z"]]}], "texts": [{"text": "Orbital Radius / AU^3/2", "position": [0.5, -0.07921476671476674], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "hanging", "rotation": -0.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824072296016"}, {"text": "Orbital Period / Years", "position": [-0.08397737455197134, 0.5], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -90.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824072295888"}], "collections": [], "images": [], "sharex": [], "sharey": []}], "data": {"data01": [[0.24075008411213486, 0.24], [0.6147626102813996, 0.62], [1.0, 1.0], [1.8795325660918991, 1.88], [11.857824421031035, 11.86], [29.651608927678783, 29.63], [84.72241786563931, 84.75], [166.375, 166.34], [248.34793003163927, 248.35]]}, "id": "el229081824072117392", "plugins": [{"type": "reset"}, {"type": "zoom", "button": true, "enabled": false}, {"type": "boxzoom", "button": true, "enabled": false}]});
+   }(mpld3);
+}else if(typeof define === "function" && define.amd){
+   // require.js is available: use it to load d3/mpld3
+   require.config({paths: {d3: "https://d3js.org/d3.v5"}});
+   require(["d3"], function(d3){
+      window.d3 = d3;
+      mpld3_load_lib("https://mpld3.github.io/js/mpld3.v0.5.9.js", function(){
+         
+         mpld3.draw_figure("fig_el2290818240721173923183013473", {"width": 640.0, "height": 480.0, "axes": [{"bbox": [0.125, 0.10999999999999999, 0.775, 0.77], "xlim": [-12.164608913264223, 260.7532890290156], "ylim": [-12.1655, 260.7555], "xdomain": [-12.164608913264223, 260.7532890290156], "ydomain": [-12.1655, 260.7555], "xscale": "linear", "yscale": "linear", "axes": [{"position": "bottom", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}, {"position": "left", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}], "axesbg": "#FFFFFF", "axesbgalpha": null, "zoomable": true, "id": "el229081824071997072", "lines": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824095558800", "color": "#FF0000", "linewidth": 1.5, "dasharray": "none", "alpha": 1, "zorder": 2, "drawstyle": "default"}], "paths": [], "markers": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824095558800pts", "facecolor": "#FF0000", "edgecolor": "#FF0000", "edgewidth": 1.0, "alpha": 1, "zorder": 2, "markerpath": [[[0.0, 4.242640687119286], [4.242640687119286, 0.0], [0.0, -4.242640687119286], [-4.242640687119286, 0.0]], ["M", "L", "L", "L", "Z"]]}], "texts": [{"text": "Orbital Radius / AU^3/2", "position": [0.5, -0.07921476671476674], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "hanging", "rotation": -0.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824072296016"}, {"text": "Orbital Period / Years", "position": [-0.08397737455197134, 0.5], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -90.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824072295888"}], "collections": [], "images": [], "sharex": [], "sharey": []}], "data": {"data01": [[0.24075008411213486, 0.24], [0.6147626102813996, 0.62], [1.0, 1.0], [1.8795325660918991, 1.88], [11.857824421031035, 11.86], [29.651608927678783, 29.63], [84.72241786563931, 84.75], [166.375, 166.34], [248.34793003163927, 248.35]]}, "id": "el229081824072117392", "plugins": [{"type": "reset"}, {"type": "zoom", "button": true, "enabled": false}, {"type": "boxzoom", "button": true, "enabled": false}]});
+      });
+    });
+}else{
+    // require.js not available: dynamically load d3 & mpld3
+    mpld3_load_lib("https://d3js.org/d3.v5.js", function(){
+         mpld3_load_lib("https://mpld3.github.io/js/mpld3.v0.5.9.js", function(){
+                 
+                 mpld3.draw_figure("fig_el2290818240721173923183013473", {"width": 640.0, "height": 480.0, "axes": [{"bbox": [0.125, 0.10999999999999999, 0.775, 0.77], "xlim": [-12.164608913264223, 260.7532890290156], "ylim": [-12.1655, 260.7555], "xdomain": [-12.164608913264223, 260.7532890290156], "ydomain": [-12.1655, 260.7555], "xscale": "linear", "yscale": "linear", "axes": [{"position": "bottom", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}, {"position": "left", "nticks": 8, "tickvalues": null, "tickformat_formatter": "", "tickformat": null, "scale": "linear", "fontsize": 10.0, "grid": {"gridOn": false}, "visible": true}], "axesbg": "#FFFFFF", "axesbgalpha": null, "zoomable": true, "id": "el229081824071997072", "lines": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824095558800", "color": "#FF0000", "linewidth": 1.5, "dasharray": "none", "alpha": 1, "zorder": 2, "drawstyle": "default"}], "paths": [], "markers": [{"data": "data01", "xindex": 0, "yindex": 1, "coordinates": "data", "id": "el229081824095558800pts", "facecolor": "#FF0000", "edgecolor": "#FF0000", "edgewidth": 1.0, "alpha": 1, "zorder": 2, "markerpath": [[[0.0, 4.242640687119286], [4.242640687119286, 0.0], [0.0, -4.242640687119286], [-4.242640687119286, 0.0]], ["M", "L", "L", "L", "Z"]]}], "texts": [{"text": "Orbital Radius / AU^3/2", "position": [0.5, -0.07921476671476674], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "hanging", "rotation": -0.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824072296016"}, {"text": "Orbital Period / Years", "position": [-0.08397737455197134, 0.5], "coordinates": "axes", "h_anchor": "middle", "v_baseline": "auto", "rotation": -90.0, "fontsize": 10.0, "color": "#000000", "alpha": 1, "zorder": 3, "id": "el229081824072295888"}], "collections": [], "images": [], "sharex": [], "sharey": []}], "data": {"data01": [[0.24075008411213486, 0.24], [0.6147626102813996, 0.62], [1.0, 1.0], [1.8795325660918991, 1.88], [11.857824421031035, 11.86], [29.651608927678783, 29.63], [84.72241786563931, 84.75], [166.375, 166.34], [248.34793003163927, 248.35]]}, "id": "el229081824072117392", "plugins": [{"type": "reset"}, {"type": "zoom", "button": true, "enabled": false}, {"type": "boxzoom", "button": true, "enabled": false}]});
+            })
+         });
+}
+</script>
+
+</body>
+</html>
